@@ -9,7 +9,7 @@ export const Root = ({ children, className }: RootProperties) => {
   return (
     <div
       className={`
-        rounded-4xl flex md:flex-row md:w-2/4  ${className}`}
+        rounded-4xl mobile:rounded-none flex md:flex-row md:w-2/4 ${className}`}
     >
       {children}
     </div>

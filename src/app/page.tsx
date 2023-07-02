@@ -1,14 +1,15 @@
 import { Card } from "@/components/Card";
+import { Button } from "@/components/button";
 export default function Home() {
   return (
     <main
-      className="flex min-h-screen flex-col items-center p-24
-     max-mobile:items-start md:items-center justify-center  
+      className="flex min-h-screen flex-col items-center p-24 mobile:p-0
+     mobile:items-start md:items-center md:justify-center  
      w-screen h-screen font-hanken-grotesk bg-slate-100"
     >
-      <Card.Root className="max-mobile:flex-col h-4/5 max-mobile:w-full bg-white md:shadow-2xl md:shadow-slate-200">
+      <Card.Root className="mobile:flex-col h-2/3 mobile:w-full md:rounded-4xl bg-white md:shadow-2xl md:shadow-slate-200">
         <Card.Result />
-        <Card.Side className="mobile:rounded-b-4xl md:rounded-4xl flex flex-col max-mobile:w-full md:w-1/2 px-4 justify-around py-4 text-white h-full">
+        <Card.Side className="mobile:shadow-none md:rounded-4xl flex flex-col mobile:w-full md:w-1/2 px-4 justify-around py-4 text-white h-full">
           <Card.Title>Summary</Card.Title>
           <Card.Subject
             icon={<img src="./img/icon-reaction.svg" />}
@@ -38,10 +39,8 @@ export default function Home() {
             className="bg-neutral-cobalt flex text-primary-cobalt"
           />
 
-          <div className="h-16 mt-6">
-            <button className="bg-gray-700 text-white font-bold h-12 rounded-4xl w-full">
-              Continue
-            </button>
+          <div className="h-16 mt-4">
+            <Button.DefaultButton>Continue</Button.DefaultButton>
           </div>
         </Card.Side>
       </Card.Root>
