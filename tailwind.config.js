@@ -14,7 +14,8 @@ module.exports = {
         58: '14.5rem'
       },
       screens: {
-        mobile: '375px'
+        mobile: '390px',
+        tablet: '850px'
       },
       colors: {
         primary: {
