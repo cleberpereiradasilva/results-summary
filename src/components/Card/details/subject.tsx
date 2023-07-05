@@ -13,7 +13,7 @@ export const Subject = ({
   className,
 }: SubjectProperties) => (
   <div
-    className={`flex flex-row items-center justify-between mobile:mb-3 h-16 rounded-xl px-3 ${className}`}
+    className={`flex flex-row items-center justify-between sm:mb-3 h-16 rounded-xl px-3 ${className}`}
   >
     <span className="flex flex-row items-center w-24 font-bold">
       {Icon}

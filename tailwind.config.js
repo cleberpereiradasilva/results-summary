@@ -14,8 +14,9 @@ module.exports = {
         58: '14.5rem'
       },
       screens: {
-        mobile: '390px',
-        tablet: '850px'
+        sm: '390px',
+        md: '850px',
+        lg: '1440px'
       },
       colors: {
         primary: {
@@ -42,7 +43,7 @@ module.exports = {
         }
       },
       borderRadius: {
-        '4xl': '32px'
+        card: '24px'
       }
     }
   },

@@ -10,7 +10,7 @@ export const DefaultButton = ({
 }: DefaultButtonProperties) => (
   <button
     {...attr}
-    className="bg-gray-700 text-white font-bold h-12 rounded-4xl w-full"
+    className="bg-gray-700 text-white font-bold h-12 rounded-2xl w-full"
   >
     {children}
   </button>

@@ -3,7 +3,7 @@ import { Button } from "@/components/button";
 import Image from "next/image";
 
 export const Category = () => (
-  <Card.Side className="mobile:shadow-none md:rounded-4xl flex flex-col mobile:w-full md:w-1/2 px-4 justify-around py-4 text-white h-full">
+  <Card.Side className="sm:rounded-none lg:rounded-card flex flex-col sm:w-full lg:w-1/2 px-4 justify-around py-4 text-white h-full">
     <Card.Title>Summary</Card.Title>
     <Card.Subject
       icon={
