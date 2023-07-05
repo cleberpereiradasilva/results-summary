@@ -14,8 +14,6 @@ This is a solution to the [Results summary component challenge on Frontend Mento
   - [Composition](#composition)
 - [Author](#author)
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Overview
 
 ### The challenge
@@ -32,6 +30,8 @@ Users should be able to:
 | ![Desktop screenshot](./result/screen_desktop.png) | ![Table screenshot](./result/screen_tablet.png) | ![Mobile screenshot](./result/screen_mobile.png) |
 
 ### How to run
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 First, run the development server:
 
