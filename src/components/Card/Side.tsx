@@ -9,7 +9,7 @@ interface SideProperties {
 export const Side = ({ children, className }: SideProperties) => {
   return (
     <Card.Root
-      className={`rounded-4xl flex md:flex-col mobile:flex-col mobile:w-full md:w-2/4 bg-white h-2/3 ${className}`}
+      className={`rounded-4xl flex lg:flex-col sm:flex-col sm:w-full lg:w-2/4 bg-white h-2/3 ${className}`}
     >
       {children}
     </Card.Root>

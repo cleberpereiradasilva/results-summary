@@ -10,7 +10,7 @@ export const DefaultButton = ({
 }: DefaultButtonProperties) => (
   <button
     {...attr}
-    className="bg-gray-700 text-white font-bold h-12 rounded-4xl w-full"
+    className="bg-gray-700 bg-gradient-to-t hover:to-blue-light hover:from-blue-royal  text-white font-bold h-12 rounded-full w-full shadow-lg hover:scale-105 hover:shadow-2xl"
   >
     {children}
   </button>
